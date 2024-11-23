@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+// eslint-disable-next-line no-unused-vars
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -8,11 +9,23 @@ function HelloWorld() {
   return <h1 className="greeting">Hello, world!</h1>;
 }
 
+function Section() {
+  return (
+    <section className='testsect'>
+      <div>
+        <p>well yess</p>
+      </div>
+    </section>
+  )
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <HelloWorld />
+    <Section />
+    <Section />
+    <Section />
   </React.StrictMode>
 );
 
