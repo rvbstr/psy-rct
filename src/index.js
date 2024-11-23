@@ -4,9 +4,15 @@ import './index.css';
 // eslint-disable-next-line no-unused-vars
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import mutsu from'./images/mts.jpg'
 
 function HelloWorld() {
-  return (<img src='\images\mts.jpg' alt='' className='fullMuts'/>)
+  
+  return (<div>
+    <img src={mutsu} alt='' className='fullMuts'/>
+    <h1 className='spat' >спат</h1>
+    </div>
+  )
 }
 
 function Section() {
