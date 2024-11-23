@@ -18,3 +18,8 @@ code {
   height: 100vh;
   background: hsl(0, 64%, 56%);
 }
+
+.fullMuts{
+  width: 100dvw;
+  height: 100dvh;
+}
