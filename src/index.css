@@ -173,3 +173,55 @@ code {
   color: #FFF;
   box-shadow: 1px 13px 42.5px 0px #B5DEFF, -2px 4px 74.1px 0px rgba(233, 118, 108, 0.67);
 }
+
+.content-block {
+  display: flex;
+  /*max-width: 1400px;*/
+  padding: 35px 50px;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  row-gap: 10px;
+  align-self: stretch;
+  flex-wrap: wrap;
+  border-top: 1px solid #AAA;
+}
+
+.content-title {
+  display: flex;
+  min-width: 375px;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  color: #FFF;
+  text-align: center;
+
+  /* H1 
+font-family: "Roslindale Cyrillic Condensed";
+font-feature-settings: 'ss03' on;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+*/
+}
+
+.content-text {
+  display: flex;
+  min-width: 350px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
+}
+
+.text-lead {
+  flex: 1 0 0;
+  color: #FFF;
+  /* Text lead */
+  font-family: Mulish;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
