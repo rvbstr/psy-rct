@@ -21,14 +21,20 @@ code {
   background: none;
 }
 
-.fullMuts {
-  width: 100dvw;
-  height: 100dvh;
+@font-face {
+  font-family: 'Roslindale Cyrillic Text';
+  src: url('/src/fonts/RoslindaleCyrillicText-Regular.woff2') format('woff2'),
+      url('src/fonts/RoslindaleCyrillicText-Regular.woff') format('woff');
 }
 
-.spat {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  color: red;
+@font-face {
+  font-family: 'Roslindale Cyrillic Text I';
+  src: url('src/fonts/RoslindaleCyrillicText-MediumItalic.woff2') format('woff2'),
+      url('src/fonts/RoslindaleCyrillicText-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roslindale Cyrillic Condensed';
+  src: url('src/fonts/RoslindaleCyrillicDisplayCondensed-Regular.woff2') format('woff2'),
+      url('src/fonts/RoslindaleCyrillicDisplayCondensed-Regular.woff') format('woff');
 }
