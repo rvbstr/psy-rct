@@ -8,10 +8,8 @@ import mutsu from'./images/mts.jpg'
 
 function HelloWorld() {
   
-  return (<div>
-    <img src={mutsu} alt='' className='fullMuts'/>
-    <h1 className='spat' >спат</h1>
-    </div>
+  return (
+    Section()
   )
 }
 
