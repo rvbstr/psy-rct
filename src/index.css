@@ -23,18 +23,153 @@ code {
 
 @font-face {
   font-family: 'Roslindale Cyrillic Text';
-  src: url('/src/fonts/RoslindaleCyrillicText-Regular.woff2') format('woff2'),
-      url('src/fonts/RoslindaleCyrillicText-Regular.woff') format('woff');
+  src: url(./fonts/RoslindaleCyrillicText-Regular.woff2) format('woff2'),
+      url(./fonts/RoslindaleCyrillicText-Regular.woff) format('woff');
 }
 
 @font-face {
   font-family: 'Roslindale Cyrillic Text I';
-  src: url('src/fonts/RoslindaleCyrillicText-MediumItalic.woff2') format('woff2'),
-      url('src/fonts/RoslindaleCyrillicText-MediumItalic.woff') format('woff');
+  src: url(./fonts/RoslindaleCyrillicText-MediumItalic.woff2) format('woff2'),
+      url(./fonts/RoslindaleCyrillicText-MediumItalic.woff) format('woff');
 }
 
 @font-face {
   font-family: 'Roslindale Cyrillic Condensed';
-  src: url('src/fonts/RoslindaleCyrillicDisplayCondensed-Regular.woff2') format('woff2'),
-      url('src/fonts/RoslindaleCyrillicDisplayCondensed-Regular.woff') format('woff');
+  src: url(./fonts/RoslindaleCyrillicDisplayCondensed-Regular.woff2) format('woff2'),
+      url(./fonts/RoslindaleCyrillicDisplayCondensed-Regular.woff) format('woff');
+}
+
+
+.feature {
+  display: flex;
+  padding: 50px;
+  align-items: start;
+  flex-direction: row;
+  align-content: center;
+  gap: 15px;
+  align-self: stretch;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+
+.header-group {
+  z-index: 1;
+  display: flex;
+  min-width: 500px;
+  max-width: 750px;
+  padding-bottom: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  flex: 1 0 0;
+
+}
+
+
+.header {
+
+  display: flex;
+  padding-bottom: 70px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.head {
+  color: #FFF;
+  /* Title v */
+  font-family: "Roslindale Cyrillic Text";
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  /* 82.5px */
+}
+
+.head-italic {
+  color: #FFF;
+  /* Title v italic */
+  font-family: "Roslindale Cyrillic Text I";
+  font-size: 75px;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+#highlight {
+  background-image: url("images/oval.svg");
+  background-position: 15px;
+  background-repeat: no-repeat;
+  margin: -80px -80px;
+  padding: 80px 80px;
+}
+
+.text-highlight {
+  color: #E9766C;
+}
+
+.header-lead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.lead {
+  flex: 1 0 0;
+  align-self: stretch;
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+:root {
+  --t: 0.5s
+}
+
+.button {
+  display: flex;
+  padding: 17px 36px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 550px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 40px;
+  background: #FFF;
+  /* doubleshade */
+  box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
+  color: #000;
+
+
+
+  /*button text style*/
+  text-align: center;
+  font-family: Mulish;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.button-anim {
+  transition: color var(--t), background var(--t), box-shadow var(--t);
+}
+
+.button-anim:hover {
+  background: #000;
+  color: #FFF;
+  box-shadow: 1px 13px 42.5px 0px #B5DEFF, -2px 4px 74.1px 0px rgba(233, 118, 108, 0.67);
 }

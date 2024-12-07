@@ -1,0 +1,49 @@
+
+
+
+
+
+.shade{
+    /* doubleshade */
+box-shadow: 1px 13px 42.5px 0px rgba(233, 118, 108, 0.67), -2px 4px 74.1px 0px #B5DEFF;
+}
+
+h3{
+    color: #FFF;
+    font-feature-settings: 'ss03' on;
+    font-family: "Roslindale Cyrillic Condensed";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p{
+    display: block;
+  margin-top: oem;
+  margin-bottom: 0em;
+  padding-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+span{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+h2{
+    font-family: "Roslindale Cyrillic Condensed";
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
